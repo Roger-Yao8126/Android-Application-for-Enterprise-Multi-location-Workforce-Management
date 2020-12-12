@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeProfile">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize = "25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/candal"
+        android:layout_marginTop="42dp"
+        android:text="User Profile"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title">
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="Email:"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id= "@+id/emailShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:text="Email"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/firstnameLL">
+
+        <TextView
+            android:id="@+id/fristNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="First Name:"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id= "@+id/firstnameShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="First Name"
+            android:paddingLeft="10dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstnameLL"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lastnameLL">
+
+        <TextView
+            android:id="@+id/lastNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="Last Name:"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id= "@+id/lastnameShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:text="Last Name"
+            android:paddingLeft="10dp"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastnameLL"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/homeaddressLL">
+        <TextView
+            android:id="@+id/homeaddressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="Home Address:"
+            android:textSize="18dp" />
+        <TextView
+            android:id= "@+id/homeaddressShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:text="Home Address"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id= "@+id/workschedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:fontFamily="@font/candal"
+        android:layout_below="@+id/homeaddressLL"
+        android:layout_centerHorizontal="true"
+        android:text="Work Schedule"
+        android:gravity="center"
+        android:ems="14"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationLL"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/workschedule">
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="Work Place:"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id= "@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"
+            android:text="Location"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/workdaysLL"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/locationLL">
+
+        <TextView
+            android:id="@+id/workdaysText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="Work Days:"
+            android:textSize="18dp" />
+        <TextView
+            android:id= "@+id/workdays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:layout_below="@+id/locationLL"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="10dp"
+            android:text="workday" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shiftLL"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/workdaysLL">
+
+        <TextView
+            android:id="@+id/shiftText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:text="Work Shift:"
+            android:textSize="18dp" />
+        <TextView
+            android:id= "@+id/shift"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/workdaysLL"
+            android:text="Work Shift"
+            android:paddingLeft="10dp"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/editbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:text="Edit Profile"
+        android:layout_below="@+id/shiftLL"/>
+
+</RelativeLayout>

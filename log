@@ -1,0 +1,16 @@
+Test 1 :  H , afternoon shift, 
+At time 11:40, firebase state "offduty"
+1 check location  work 
+2  check time:  Time matched you can check in 
+3  check in :  Checked in 
+4  check out : Unable to check out , confirm your current state
+5  change time to 
+6  [check location ] and [check time] again  :  ready to checkout 
+7  [check out]  : checked out ,  database updated 
+
+
+At time 14:07, firebase state "offduty"
+1 check location 
+2 check time : late
+3 check in unable to check in 
+4 

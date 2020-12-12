@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_locationAdd"
+            android:icon="@drawable/ic_baseline_add_location_24"
+            android:title="@string/addlocation" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/nav_employee"
+            android:icon="@drawable/ic_baseline_people_24"
+            android:title="@string/employee_management" />
+        <item
+            android:id="@+id/nav_vocation"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="@string/vacation_management" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/sign_out" />
+    </group>
+</menu>

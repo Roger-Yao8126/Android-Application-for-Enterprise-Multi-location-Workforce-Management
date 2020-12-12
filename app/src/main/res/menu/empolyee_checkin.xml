@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toolbar_person"
+        android:icon = "@drawable/ic_person"
+        android:title= "Profile"
+
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/askforleave"
+        android:icon = "@drawable/ic_leave"
+        android:title= "Ask for leave"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/Logout"
+        android:icon = "@drawable/ic_exit"
+        android:title= "Log out"
+        app:showAsAction="always|withText" />
+</menu>

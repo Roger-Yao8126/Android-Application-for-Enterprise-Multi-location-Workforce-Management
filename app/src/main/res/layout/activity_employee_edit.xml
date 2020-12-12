@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeEdit">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize = "24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/candal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Eidt Profile"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <TextView
+        android:id= "@+id/firstnameShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/title"
+        android:paddingLeft="60dp"
+        android:text="First Name "
+        android:gravity="center" />
+
+    <EditText
+        android:id = "@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstnameShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="14"
+        android:hint="Update Your First Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id= "@+id/lastnameShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/firstname"
+        android:paddingLeft="60dp"
+        android:text="Last Name"
+        android:gravity="center" />
+
+    <EditText
+        android:id = "@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastnameShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="14"
+        android:hint="Update Your Last Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id= "@+id/homeaddressShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp"
+        android:layout_below="@+id/lastname"
+        android:text="Home Address"
+        android:paddingLeft="60dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/homeaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeaddressShow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:ems="14"
+        android:hint="Update Your Home Address"
+        android:inputType="textPostalAddress" />
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:text="Update"
+        android:layout_below="@+id/homeaddress"/>
+
+</RelativeLayout>

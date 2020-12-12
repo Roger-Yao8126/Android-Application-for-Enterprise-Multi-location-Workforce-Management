@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaveInfo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="18"
+            android:text="@+id/item_username"/>
+
+        <TextView
+            android:id="@+id/item_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@+id/item_username"
+            android:ems="18"
+            android:layout_below="@id/item_username"/>
+
+        <TextView
+            android:id="@+id/item_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@+id/item_line1"
+            android:ems="18"
+            android:layout_below="@id/item_duration"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/leaveInfo"
+        android:gravity="center"
+        android:text="Pending"
+        android:textSize="16dp"
+        android:id="@+id/leave_state"
+        android:ems="6"/>
+
+
+</RelativeLayout>

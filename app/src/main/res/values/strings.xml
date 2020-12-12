@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">277Project</string>
+    <string name="manager">Manager</string>
+    <string name="employee">Employee</string>
+    <string name="your_role">Your Role</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_email">Enter Your Email</string>
+    <string name="register">Register</string>
+    <string name="log_in_page">Log In Page</string>
+    <string name="logout">logout</string>
+    <string name="title_activity_manager_profile">ManagerProfile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="main">Main</string>
+    <string name="profile">Profile</string>
+    <string name="addlocation">AddLocation</string>
+    <string name="map">Map</string>
+    <string name="employee_management">Employee Management</string>
+    <string name="enter_location_here">Enter Location Here</string>
+    <string name="enter_location_id">Enter Location ID</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_map">Map</string>
+    <string name="show_all_location">Show All Location</string>
+    <string name="show_all">Show All</string>
+    <string name="employee_role">Employee Role</string>
+    <string name="enter_work_location_id_here">Enter Work Location ID Here</string>
+    <string name="work_time">Work Time</string>
+    <string name="pick_workday">Pick Workday</string>
+    <string name="show_locations">Show Locations</string>
+    <string name="go_back">Go Back</string>
+    <string name="show_shift">Show Shift</string>
+    <string name="work_shifts">Work Shifts</string>
+    <string name="save_information">Save Information</string>
+    <string name="there_will_be_workshift">There will be workshift</string>
+    <string name="there_will_be_worktime">There will be worktime</string>
+    <string name="there_will_be_a_location">There will be a location</string>
+    <string name="there_will_be_role">There will be role</string>
+    <string name="there_will_be_a_username">There will be a username</string>
+    <string name="there_will_be_a_storeid">There will be a storeID</string>
+    <string name="there_will_be_storename">There will be storeName</string>
+    <string name="there_will_be_a_latitude">There will be a latitude</string>
+    <string name="there_will_be_longitude">There will be longitude</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="there_will_be_employee_number">There will be employee number</string>
+    <string name="title_activity_manager_vacation">ManagerVacation</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="vacation_management">Leave Management</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="change_your_first_name">Change Your First Name</string>
+    <string name="change_your_last_name">Change Your Last Name</string>
+    <string name="change_your_address_here">Change Your Address Here</string>
+>>>>>>> master
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a277project.Login">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterUserName"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Enter User Name Here"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EnterPassword"
+        app:layout_constraintTop_toBottomOf="@id/EnterUserName"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showUserName"
+        app:layout_constraintTop_toBottomOf="@id/EnterPassword"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPassword"
+        app:layout_constraintTop_toBottomOf="@id/showUserName"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LogIn"
+        app:layout_constraintTop_toBottomOf="@id/showPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Log In"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register"
+        app:layout_constraintTop_toBottomOf="@id/showPassword"
+        app:layout_constraintStart_toEndOf="@id/LogIn"
+        android:text="Register"
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,3 +14,4 @@
 
 
 ## Some main functions/interfaces
+![Some main functions/interfaces](https://github.com/Roger-Yao8126/Android-Application-for-Enterprise-Multi-location-Workforce-Management/blob/master/images/functions.png)

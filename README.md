@@ -19,4 +19,4 @@
 ## Set Google API KEY
 - Add your google api key to placeholder in file src/main/res/AndroidManifest.xml
 
-- To get your google API key , see the instruction [instruction](https://developers.google.com/maps/premium/apikey/maps-android-apikey)
+- To get your google API key , see the [instruction](https://developers.google.com/maps/premium/apikey/maps-android-apikey)
